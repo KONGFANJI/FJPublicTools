@@ -1,0 +1,6 @@
+framework module FJPublicTools {
+  umbrella header "FJPublicTools.h"
+
+  export *
+  module * { export * }
+}
