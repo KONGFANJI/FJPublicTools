@@ -34,6 +34,12 @@
 			<key>fun_title</key>
 			<string>导出文件</string>
 		</dict>
+		<dict>
+			<key>fun_id</key>
+			<string>6</string>
+			<key>fun_title</key>
+			<string>清除缓存</string>
+		</dict>
 	</array>
 </dict>
 </plist>

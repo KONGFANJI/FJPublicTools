@@ -37,6 +37,11 @@
             [self export:vc];
             
             break;
+        case CLEARCHACHE:
+            [FJFileCleanCache cleanCaches:^(BOOL isSuccess) {
+                NSLog(isSuccess?@"成功":@"失败");
+            }];
+            break;
             
         default:
             break;

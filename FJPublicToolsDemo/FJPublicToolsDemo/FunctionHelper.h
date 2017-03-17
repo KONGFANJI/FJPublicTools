@@ -14,7 +14,8 @@ typedef NS_ENUM(NSInteger,funcID) {
     OPENAPP,
     OPENAPPLIST,
     SHARE,
-    EXPORT
+    EXPORT,
+    CLEARCHACHE
 };
 
 @interface FunctionHelper : NSObject
