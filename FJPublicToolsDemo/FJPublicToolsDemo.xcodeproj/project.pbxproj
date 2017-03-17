@@ -16,6 +16,9 @@
 		1456ABE31E7BAB02008C105D /* FJPublicToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456ABE21E7BAB02008C105D /* FJPublicToolsDemoTests.m */; };
 		1456ABEE1E7BAB02008C105D /* FJPublicToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456ABED1E7BAB02008C105D /* FJPublicToolsDemoUITests.m */; };
 		1456ABFD1E7BAB20008C105D /* FJPublicTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1456ABFC1E7BAB20008C105D /* FJPublicTools.framework */; };
+		1456ABFF1E7BBA31008C105D /* TableViewList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1456ABFE1E7BBA31008C105D /* TableViewList.plist */; };
+		1456AC021E7BC76A008C105D /* FunctionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456AC011E7BC76A008C105D /* FunctionHelper.m */; };
+		1456AC091E7BD254008C105D /* JinPingMei.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1456AC081E7BD254008C105D /* JinPingMei.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		1456ABED1E7BAB02008C105D /* FJPublicToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJPublicToolsDemoUITests.m; sourceTree = "<group>"; };
 		1456ABEF1E7BAB02008C105D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1456ABFC1E7BAB20008C105D /* FJPublicTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FJPublicTools.framework; sourceTree = "<group>"; };
+		1456ABFE1E7BBA31008C105D /* TableViewList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TableViewList.plist; sourceTree = "<group>"; };
+		1456AC001E7BC76A008C105D /* FunctionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionHelper.h; sourceTree = "<group>"; };
+		1456AC011E7BC76A008C105D /* FunctionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionHelper.m; sourceTree = "<group>"; };
+		1456AC031E7BCBCC008C105D /* AppID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppID.h; sourceTree = "<group>"; };
+		1456AC081E7BD254008C105D /* JinPingMei.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JinPingMei.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,9 @@
 				1456ABCC1E7BAB01008C105D /* AppDelegate.m */,
 				1456ABCE1E7BAB01008C105D /* ViewController.h */,
 				1456ABCF1E7BAB01008C105D /* ViewController.m */,
+				1456AC001E7BC76A008C105D /* FunctionHelper.h */,
+				1456AC011E7BC76A008C105D /* FunctionHelper.m */,
+				1456AC031E7BCBCC008C105D /* AppID.h */,
 				1456ABD11E7BAB01008C105D /* Main.storyboard */,
 				1456ABD41E7BAB01008C105D /* Assets.xcassets */,
 				1456ABD61E7BAB01008C105D /* LaunchScreen.storyboard */,
@@ -121,7 +132,9 @@
 		1456ABC81E7BAB01008C105D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1456AC081E7BD254008C105D /* JinPingMei.txt */,
 				1456ABC91E7BAB01008C105D /* main.m */,
+				1456ABFE1E7BBA31008C105D /* TableViewList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -263,6 +276,8 @@
 			files = (
 				1456ABD81E7BAB01008C105D /* LaunchScreen.storyboard in Resources */,
 				1456ABD51E7BAB01008C105D /* Assets.xcassets in Resources */,
+				1456ABFF1E7BBA31008C105D /* TableViewList.plist in Resources */,
+				1456AC091E7BD254008C105D /* JinPingMei.txt in Resources */,
 				1456ABD31E7BAB01008C105D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1456ABD01E7BAB01008C105D /* ViewController.m in Sources */,
+				1456AC021E7BC76A008C105D /* FunctionHelper.m in Sources */,
 				1456ABCD1E7BAB01008C105D /* AppDelegate.m in Sources */,
 				1456ABCA1E7BAB01008C105D /* main.m in Sources */,
 			);

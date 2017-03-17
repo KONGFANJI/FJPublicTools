@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TableViewList</key>
+	<array>
+		<dict>
+			<key>fun_id</key>
+			<string>1</string>
+			<key>fun_title</key>
+			<string>调用系统邮箱发送邮件</string>
+		</dict>
+		<dict>
+			<key>fun_id</key>
+			<string>2</string>
+			<key>fun_title</key>
+			<string>打开App Store的某个app</string>
+		</dict>
+		<dict>
+			<key>fun_id</key>
+			<string>3</string>
+			<key>fun_title</key>
+			<string>打开开发者App Store列表</string>
+		</dict>
+		<dict>
+			<key>fun_id</key>
+			<string>4</string>
+			<key>fun_title</key>
+			<string>调用系统分享</string>
+		</dict>
+		<dict>
+			<key>fun_id</key>
+			<string>5</string>
+			<key>fun_title</key>
+			<string>导出文件</string>
+		</dict>
+	</array>
+</dict>
+</plist>
