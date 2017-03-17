@@ -27,7 +27,7 @@ typedef void(^ApplistResultBlock)(BOOL result, NSError *error);
 @property (nonatomic,copy)   NSString *subject;//主题
 @property (nonatomic,copy)   NSString *body;//内容
 @property (nonatomic,assign) BOOL isHTML;//默认是NO
-@property (nonatomic,assign) BOOL isShowAppInfo;//默认是yes
+@property (nonatomic,assign) BOOL isShowAppInfo;//默认是NO
 
 - (void)sendEmailWithViewCotroller:(UIViewController *)vc result:(EmailResultBlock)resultBlock;
 

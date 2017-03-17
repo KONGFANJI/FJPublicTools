@@ -19,6 +19,7 @@
 		1456ABFF1E7BBA31008C105D /* TableViewList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1456ABFE1E7BBA31008C105D /* TableViewList.plist */; };
 		1456AC021E7BC76A008C105D /* FunctionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456AC011E7BC76A008C105D /* FunctionHelper.m */; };
 		1456AC091E7BD254008C105D /* JinPingMei.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1456AC081E7BD254008C105D /* JinPingMei.txt */; };
+		1456AC8A1E7BDD72008C105D /* DAAppsViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1456AC891E7BDD72008C105D /* DAAppsViewController.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		1456AC011E7BC76A008C105D /* FunctionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionHelper.m; sourceTree = "<group>"; };
 		1456AC031E7BCBCC008C105D /* AppID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppID.h; sourceTree = "<group>"; };
 		1456AC081E7BD254008C105D /* JinPingMei.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JinPingMei.txt; sourceTree = "<group>"; };
+		1456AC891E7BDD72008C105D /* DAAppsViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DAAppsViewController.bundle; path = FJPublicTools.framework/DAAppsViewController.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		1456ABFB1E7BAB20008C105D /* FrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				1456AC891E7BDD72008C105D /* DAAppsViewController.bundle */,
 				1456ABFC1E7BAB20008C105D /* FJPublicTools.framework */,
 			);
 			path = FrameWork;
@@ -279,6 +282,7 @@
 				1456ABFF1E7BBA31008C105D /* TableViewList.plist in Resources */,
 				1456AC091E7BD254008C105D /* JinPingMei.txt in Resources */,
 				1456ABD31E7BAB01008C105D /* Main.storyboard in Resources */,
+				1456AC8A1E7BDD72008C105D /* DAAppsViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +562,7 @@
 				1456ABF41E7BAB02008C105D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1456ABF51E7BAB02008C105D /* Build configuration list for PBXNativeTarget "FJPublicToolsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +571,7 @@
 				1456ABF71E7BAB02008C105D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1456ABF81E7BAB02008C105D /* Build configuration list for PBXNativeTarget "FJPublicToolsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +580,7 @@
 				1456ABFA1E7BAB02008C105D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

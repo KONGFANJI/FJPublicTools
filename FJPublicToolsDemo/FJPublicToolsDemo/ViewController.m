@@ -45,6 +45,7 @@
         NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"JinPingMei" ofType:@"txt"]];
 
         [[FJPublicHelper shareInstance] exportFileWithUrl:url andView:[tableView cellForRowAtIndexPath:indexPath]];
+        
     }else{
         [FunctionHelper didselectWithFuncId:[[self.dataArray[indexPath.row] objectForKey:@"fun_id"] integerValue] andVC:self];
     }
