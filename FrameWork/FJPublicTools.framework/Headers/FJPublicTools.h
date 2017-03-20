@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "FJPublicHelper.h"
 #import "FJAppInfoUtils.h"
+#import "FJFileCleanCache.H"
+#import "FJRouter.h"
 
 //! Project version number for FJPublicTools.
 FOUNDATION_EXPORT double FJPublicToolsVersionNumber;

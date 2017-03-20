@@ -20,6 +20,7 @@
 		1456AC021E7BC76A008C105D /* FunctionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456AC011E7BC76A008C105D /* FunctionHelper.m */; };
 		1456AC091E7BD254008C105D /* JinPingMei.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1456AC081E7BD254008C105D /* JinPingMei.txt */; };
 		1456AC8A1E7BDD72008C105D /* DAAppsViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1456AC891E7BDD72008C105D /* DAAppsViewController.bundle */; };
+		14706F2B1E7FCD9800F1819C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14706F2A1E7FCD9800F1819C /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		1456AC031E7BCBCC008C105D /* AppID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppID.h; sourceTree = "<group>"; };
 		1456AC081E7BD254008C105D /* JinPingMei.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JinPingMei.txt; sourceTree = "<group>"; };
 		1456AC891E7BDD72008C105D /* DAAppsViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DAAppsViewController.bundle; path = FJPublicTools.framework/DAAppsViewController.bundle; sourceTree = "<group>"; };
+		14706F291E7FCD9800F1819C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		14706F2A1E7FCD9800F1819C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				1456ABCC1E7BAB01008C105D /* AppDelegate.m */,
 				1456ABCE1E7BAB01008C105D /* ViewController.h */,
 				1456ABCF1E7BAB01008C105D /* ViewController.m */,
+				14706F291E7FCD9800F1819C /* TestViewController.h */,
+				14706F2A1E7FCD9800F1819C /* TestViewController.m */,
 				1456AC001E7BC76A008C105D /* FunctionHelper.h */,
 				1456AC011E7BC76A008C105D /* FunctionHelper.m */,
 				1456AC031E7BCBCC008C105D /* AppID.h */,
@@ -311,6 +316,7 @@
 				1456AC021E7BC76A008C105D /* FunctionHelper.m in Sources */,
 				1456ABCD1E7BAB01008C105D /* AppDelegate.m in Sources */,
 				1456ABCA1E7BAB01008C105D /* main.m in Sources */,
+				14706F2B1E7FCD9800F1819C /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

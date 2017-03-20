@@ -15,11 +15,11 @@ typedef NS_ENUM(NSInteger,funcID) {
     OPENAPPLIST,
     SHARE,
     EXPORT,
-    CLEARCHACHE
+    CLEARCHACHE,
+    ROUTER
 };
 
 @interface FunctionHelper : NSObject
-
 
 
 + (void)didselectWithFuncId:(funcID)funcId andVC:(UIViewController *)vc;

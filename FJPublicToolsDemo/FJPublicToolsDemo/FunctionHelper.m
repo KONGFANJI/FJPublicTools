@@ -42,6 +42,15 @@
                 NSLog(isSuccess?@"成功":@"失败");
             }];
             break;
+        
+        case ROUTER:
+            
+//            [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:@"Main" withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES];
+            
+            [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:nil withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES];
+
+            
+            break;
             
         default:
             break;
