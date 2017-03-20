@@ -45,9 +45,9 @@
         
         case ROUTER:
             
-            [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:@"Main" withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES];
+            [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:@"Main" withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES animated:YES];
             
-//            [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:nil withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES];
+//            [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:nil withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES animated:YES];
 
             
             break;

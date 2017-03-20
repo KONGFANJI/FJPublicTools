@@ -38,6 +38,6 @@ typedef NS_ENUM(NSInteger, MODALTYPE) {
  @param way modal方式
  @param isHide <#isHide description#>
  */
-- (void)FJRouterFromVC:(UIViewController *)fromVC toVC:(NSString *)toVC SBName:(NSString *)SBName withParameter:(NSDictionary *)parameter way:(MODALTYPE)way isHideBottom:(BOOL)isHide;
+- (void)FJRouterFromVC:(UIViewController *)fromVC toVC:(NSString *)toVC SBName:(NSString *)SBName withParameter:(NSDictionary *)parameter way:(MODALTYPE)way isHideBottom:(BOOL)isHide animated:(BOOL)animated;
 
 @end
