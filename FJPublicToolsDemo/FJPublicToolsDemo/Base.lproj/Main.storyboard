@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="-500" y="-159"/>
         </scene>
-        <!--View Controller-->
+        <!--Test View Controller-->
         <scene sceneID="WdI-lO-r7S">
             <objects>
-                <viewController id="fBb-Zq-Fgb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TestViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fBb-Zq-Fgb" customClass="TestViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C75-8o-SK6"/>
                         <viewControllerLayoutGuide type="bottom" id="fEs-od-H8e"/>
@@ -74,7 +74,27 @@
                     <view key="view" contentMode="scaleToFill" id="TrN-ib-i26">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SkimTumblog—最好用的tumblr中文客户端，支持手势密码" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKa-CB-0Fl">
+                                <rect key="frame" x="20" y="300" width="335" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1024*1024" translatesAutoresizingMaskIntoConstraints="NO" id="lqo-Lg-GFc">
+                                <rect key="frame" x="128" y="120" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Q1X-Fd-uFo"/>
+                                    <constraint firstAttribute="height" constant="120" id="WZO-eV-sRU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lqo-Lg-GFc" firstAttribute="centerX" secondItem="TrN-ib-i26" secondAttribute="centerX" id="7TD-K1-tyy"/>
+                            <constraint firstItem="lqo-Lg-GFc" firstAttribute="top" secondItem="C75-8o-SK6" secondAttribute="bottom" constant="100" id="NCV-Yu-qa9"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xV0-Sm-WdN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -82,4 +102,7 @@
             <point key="canvasLocation" x="310" y="-159"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1024*1024" width="512" height="512"/>
+    </resources>
 </document>
