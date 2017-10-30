@@ -16,7 +16,8 @@ typedef NS_ENUM(NSInteger,funcID) {
     SHARE,
     EXPORT,
     CLEARCHACHE,
-    ROUTER
+    ROUTER,
+    COMMENT
 };
 
 @interface FunctionHelper : NSObject

@@ -46,6 +46,12 @@
 			<key>fun_title</key>
 			<string>路由</string>
 		</dict>
+		<dict>
+			<key>fun_id</key>
+			<string>8</string>
+			<key>fun_title</key>
+			<string>评论</string>
+		</dict>
 	</array>
 </dict>
 </plist>

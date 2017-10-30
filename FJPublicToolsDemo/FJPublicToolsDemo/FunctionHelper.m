@@ -42,16 +42,23 @@
                 NSLog(isSuccess?@"成功":@"失败");
             }];
             break;
-        
+            
         case ROUTER:
             
             [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:@"Main" withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES animated:YES];
             
-//            [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:nil withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES animated:YES];
-
+            //            [[FJRouter shareInstance] FJRouterFromVC:vc toVC:@"TestViewController" SBName:nil withParameter:@{@"key1":@"测试咯",@"key2":@"value"} way:PUSH isHideBottom:YES animated:YES];
+            
             
             break;
-            
+        case COMMENT:
+        {
+            NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@&action=write-review",KAppStoreUrl]];
+            if ([[UIApplication sharedApplication] canOpenURL:url]) {
+                [[UIApplication sharedApplication] openURL:url];
+            }
+        }
+            break;
         default:
             break;
     }
@@ -64,6 +71,37 @@
     FJInstance.isShowAppInfo = NO;
     
     [FJInstance sendEmailWithViewCotroller:vc result:^(MFMailComposeResult result, NSError *error) {
+        switch (result)
+        {
+                
+            case MFMailComposeResultCancelled:
+                
+                NSLog(@"取消发送mail");
+                
+                break;
+                
+            case MFMailComposeResultSaved:
+                
+                NSLog(@"保存邮件");
+                
+                break;
+                
+            case MFMailComposeResultSent:
+                
+                NSLog(@"发送邮件");
+                
+                break;
+                
+            case MFMailComposeResultFailed:
+                
+                NSLog(@"邮件发送失败: %@...", [error localizedDescription]);
+                break;
+                
+            default:
+                
+                break;
+                
+        }
         
     }];
     
